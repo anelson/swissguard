@@ -1,0 +1,942 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"test_mean_",
+				"test_mean_lunar_apogee"
+			],
+			[
+				"error",
+				"errorMessage"
+			],
+			[
+				"acc",
+				"accuracy"
+			],
+			[
+				"ac",
+				"accuracy"
+			],
+			[
+				"coor",
+				"coordinateSystem"
+			],
+			[
+				"vel",
+				"velocity"
+			],
+			[
+				"tar",
+				"target_pos"
+			],
+			[
+				"ex",
+				"extra_logging"
+			],
+			[
+				"corr",
+				"correctedPosition"
+			],
+			[
+				"earth",
+				"earthVelocity"
+			],
+			[
+				"ea",
+				"earthVelocity"
+			],
+			[
+				"object",
+				"objectPosition"
+			],
+			[
+				"grav",
+				"gravityCorrectedObservedBodyPosition"
+			],
+			[
+				"obser",
+				"observerPosition"
+			],
+			[
+				"accu",
+				"accuracies"
+			],
+			[
+				"loc",
+				"loc_idx"
+			],
+			[
+				"light",
+				"lightCorrectedMoonGeocentricPosition"
+			],
+			[
+				"observer",
+				"observerPosition"
+			],
+			[
+				"decim",
+				"decimal_to_dms"
+			],
+			[
+				"posi",
+				"position_in"
+			],
+			[
+				"bodySta",
+				"bodyStateItrf93"
+			],
+			[
+				"trans",
+				"transformation"
+			],
+			[
+				"hori",
+				"horizons_jdut"
+			],
+			[
+				"horizons",
+				"horizons_ct_minus_ut"
+			],
+			[
+				"hor",
+				"horizons_jdct"
+			],
+			[
+				"conv",
+				"converted_time"
+			],
+			[
+				"Argument",
+				"ArgumentError"
+			],
+			[
+				"compare",
+				"compare_degrees"
+			],
+			[
+				"ephemeris",
+				"ephemeris_time"
+			],
+			[
+				"rec",
+				"rectangular_to_planetographic"
+			],
+			[
+				"flatt",
+				"flattening_coefficient"
+			],
+			[
+				"equa",
+				"equatorial_radius"
+			],
+			[
+				"com",
+				"compute_body_relative_state"
+			],
+			[
+				"flat",
+				"flattening_coefficient"
+			],
+			[
+				"MAX_",
+				"MAX_BODY_NAME_LENGTH"
+			],
+			[
+				"from",
+				"from_spice_double_array"
+			],
+			[
+				"to",
+				"to_spice_double_array"
+			],
+			[
+				"state",
+				"state_vector"
+			],
+			[
+				"Array",
+				"array"
+			],
+			[
+				"SpiceDou",
+				"SpiceDoubleArray"
+			],
+			[
+				"refer",
+				"reference_frame"
+			],
+			[
+				"abberation",
+				"abberation_correction"
+			],
+			[
+				"ephemeri",
+				"ephemeris_time"
+			],
+			[
+				"var",
+				"variable_name"
+			],
+			[
+				"load",
+				"load_all_ephemerides"
+			],
+			[
+				"opgalt",
+				"observerPgraphicAltitude"
+			],
+			[
+				"opglat",
+				"observerPgraphicLatitude"
+			],
+			[
+				"opglon",
+				"obseverPgraphicLongitude"
+			],
+			[
+				"soppc",
+				"subObserverPointPcentricRadius"
+			],
+			[
+				"soppcen",
+				"subObserverPointPcentricLongitude"
+			],
+			[
+				"soppg",
+				"subObserverPointPgraphicAltitude"
+			],
+			[
+				"compu",
+				"computationMethods"
+			],
+			[
+				"tr",
+				"targetRadius"
+			],
+			[
+				"opclat",
+				"observerPcentricLatitude"
+			],
+			[
+				"opclon",
+				"obseverPcentricLongitude"
+			],
+			[
+				"fla",
+				"targetFlatteningCoefficient"
+			],
+			[
+				"sur",
+				"surfaceVector"
+			],
+			[
+				"sub",
+				"subObserverPointEpoch"
+			],
+			[
+				"position",
+				"position1_array"
+			],
+			[
+				"abb",
+				"abberation_correction"
+			],
+			[
+				"ob",
+				"observing_body"
+			],
+			[
+				"test",
+				"test_data_file"
+			],
+			[
+				"TV_RAGE",
+				"TV_RAGE_API_SHOW_INFO_URL"
+			],
+			[
+				"PRO",
+				"RELOAD_PROBABILITY"
+			],
+			[
+				"TV_RA",
+				"TV_RAGE_API_SECONDS_BETWEEN_QUERIES"
+			],
+			[
+				"TV_RAGE_",
+				"TV_RAGE_API_SECONDS_BETWEEN_QUERIES"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/adam/Dropbox/sources/swissephem/doc/swisseph.htm",
+		"/Users/adam/Dropbox/projects/astrokoshka/astrokoshka.sublime-project",
+		"/Users/adam/Dropbox/projects/astrokoshka/project/build.properties",
+		"/Users/adam/Dropbox/projects/astrokoshka/web/build.sbt",
+		"/Users/adam/Dropbox/projects/astrokoshka/old/project/Build.scala",
+		"/Users/adam/Dropbox/projects/astrokoshka/project/plugins.sbt",
+		"/Users/adam/Dropbox/projects/astrokoshka/build.sbt",
+		"/Users/adam/Dropbox/projects/astrokoshka/astrolib/src/test/scala/com/astrokoshka/tests/ephemerides/jpl/JplBenchmark.scala",
+		"/Users/adam/Dropbox/projects/astrokoshka/.gitignore",
+		"/Users/adam/Dropbox/projects/astrokoshka/astrolib/src/test/scala/com/astrokoshka/tests/ephemerides/jpl/Benchmark.scala",
+		"/Users/adam/Dropbox/projects/astrokoshka/old/project/plugins.sbt",
+		"/Users/adam/Dropbox/sources/swissephem/src/sweph.h",
+		"/Users/adam/Dropbox/sources/swissephem/src/swephlib.c",
+		"/Users/adam/Dropbox/sources/aa-56/mlr404.c",
+		"/Users/adam/Dropbox/sources/aa-56/deltat.c",
+		"/Users/adam/Dropbox/sources/swissephem/src/sweph.c",
+		"/Users/adam/Dropbox/sources/fund_ephemeris/fecsoftc/makefile.unx",
+		"/Users/adam/Dropbox/sources/swissephem/src/swemmoon.c",
+		"/Users/adam/Dropbox/sources/libgal-0.6.0/ephemerides/gal_gmopv02.c",
+		"/Users/adam/Dropbox/sources/swissephem/src/swecl.c",
+		"/Users/adam/Dropbox/sources/novas-c-3.1/novas.c",
+		"/Users/adam/Dropbox/projects/scrap/tutorial/gen-c_glib/calculator.c",
+		"/Users/adam/Dropbox/projects/scrap/tutorial/gen-cpp/Calculator_server.skeleton.cpp",
+		"/Users/adam/Dropbox/sources/swissephem/src/swehouse.c",
+		"/Users/adam/Dropbox/sources/swissephem/src/swemini.c",
+		"/Users/adam/Dropbox/sources/cmoon/cmoon.c",
+		"/Users/adam/Downloads/AppRecovery.log",
+		"/Users/adam/Dropbox/sources/swissephem/src/aktest.c",
+		"/Users/adam/Dropbox/sources/swissephem/src/Makefile",
+		"/Users/adam/Dropbox/sources/novas-c-3.1/test.c",
+		"/Users/adam/Dropbox/sources/fund_ephemeris/fecsoftc/astrolib.c",
+		"/Users/adam/Dropbox/projects/scrap/tutorial/gen-c_glib/calculator.",
+		"/Users/adam/Dropbox/projects/scrap/tutorial/tutorial.thrift",
+		"/Users/adam/Downloads/AdaptiveAppsCulture.ppsx",
+		"/Users/adam/.sbtconfig",
+		"/Users/adam/Dropbox/sources/swissephem/src/swepcalc.c",
+		"/Users/adam/Dropbox/sources/swissephem/src/swephlib.h",
+		"/Users/adam/Downloads/RT-AC66U_3.0.0.4_372.30_2/README-merlin.txt",
+		"/Users/adam/Dropbox/software/Office for Mac 2011 with SP2/serialno.txt",
+		"/Users/adam/Downloads/Archive.ps1",
+		"/Users/adam/Downloads/DedupeVolumeManagerExceptions.txt",
+		"/Users/adam/Dropbox/sources/libgal-0.6.0/ephemerides/gal_gmopv02.h",
+		"/Users/adam/Dropbox/sources/moshier-aa/domoon.c",
+		"/Users/adam/Dropbox/projects/rspice/spec/rspice/body_spec.rb",
+		"/Users/adam/sources/novas-c-3.1/novas.c",
+		"/Users/adam/Dropbox/projects/astrokoshka/src/test/scala/com/astrokoshka/tests/time/JulianDateSpec.scala",
+		"/Users/adam/Dropbox/sources/novas-c-3.1/novascon.c",
+		"/Users/adam/Downloads/D-12853_Analyze-v.txt",
+		"/Users/adam/Downloads/D-12853_Analyze-v-1.txt",
+		"/Users/adam/Downloads/log/AppRecovery.log",
+		"/Users/adam/Downloads/D-12853_DumpStack.txt",
+		"/Users/adam/Dropbox/sources/novas-c-3.1/solsys1.c",
+		"/Users/adam/Dropbox/projects/astrokoshka/.idea_modules/astrokoshka.iml",
+		"/Users/adam/Dropbox/sources/novas-c-3.1/eph_manager.c",
+		"/Volumes/NE BOLTAI/credentials.txt",
+		"/Users/adam/Downloads/Program.cs",
+		"/Users/adam/temp/credentials.txt",
+		"/Volumes/ne boltai/credentials.txt",
+		"/Users/adam/Downloads/stacktrace.txt",
+		"/Users/adam/Downloads/errors 1993.txt",
+		"/Users/adam/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/adam/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/adam/Dropbox/projects/rspice/spec/test_data/test_data_generator.c",
+		"/Users/adam/Dropbox/projects/rspice/README.md",
+		"/Users/adam/Downloads/AppRecovery-ChecksumCrash2.log",
+		"/Users/adam/Downloads/AppRecovery-1.log",
+		"/Users/adam/Downloads/AppRecovery-2.log",
+		"/Users/adam/Downloads/AA-123456-20-12-2012-14-34-59/AppAssureLogs/AppRecovery.log",
+		"/Users/adam/Dropbox/sources/novas-c-3.1/fptest.c",
+		"/Users/adam/Dropbox/sources/novas-c-3.1/fptest.scala",
+		"/Users/adam/Dropbox/sources/novas-c-3.1/nutation.c",
+		"/Users/adam/Dropbox/projects/ephemerides/fortran/asc2eph.f",
+		"/Users/adam/Dropbox/projects/ephemerides/fortran/testeph.f",
+		"/Users/adam/Dropbox/projects/ephemerides/fortran/jplsubs.f",
+		"/Users/adam/Dropbox/sources/novas-c-3.1/novas.h",
+		"/Users/adam/Dropbox/Documents/2012-12-13 Steve Holt Accountant Meeting/2012-12-07 Pay stub.mht.txt",
+		"/Users/adam/Downloads/AppRecovery-ChecksumCrash.log",
+		"/Users/adam/Downloads/AA-073634-06-12-2012-00-08-59/AppAssureLogs/AppRecovery.log",
+		"/Users/adam/Downloads/AA-073634-06-12-2012-00-08-59/AppAssureLogs/AppRecovery.02.log",
+		"/Users/adam/Downloads/paragrid/AppRecovery - x3s.log",
+		"/Users/adam/Dropbox/sources/novas-c-3.1/ctest",
+		"/Users/adam/Downloads/Core_Logs/AppRecovery.log",
+		"/Users/adam/Downloads/AppRecovery.00/AppRecovery.02.log",
+		"/Users/adam/Downloads/AppRecovery.00/AppRecovery.01.log",
+		"/Users/adam/Downloads/AppRecovery.00/AppRecovery.00.log",
+		"/Users/anelson/sources/novas-c-3.1/eph_manager.c",
+		"/Users/anelson/sources/ephcom-1.0/ephcom.c",
+		"/Users/anelson/sources/cspice/doc/daf.req",
+		"/Users/anelson/sources/cspice/src/cspice/daftb.c",
+		"/Users/anelson/sources/cspice/src/cspice/idw2at.c",
+		"/Users/anelson/sources/cspice/src/csupport/zzgetfat.c",
+		"/Users/anelson/sources/cspice/src/cspice/zzldker.c",
+		"/Users/anelson/sources/cspice/src/cspice/getfat.c",
+		"/Users/anelson/sources/cspice/src/cspice/daft2b.c",
+		"/Users/anelson/sources/cspice/src/cspice/dafb2t.c",
+		"/Users/anelson/sources/cspice/doc/das.req",
+		"/Users/anelson/sources/cspice/src/cspice/zzdafgfr.c",
+		"/Users/anelson/sources/cspice/src/cspice/dafah.c",
+		"/Users/anelson/sources/cspice/doc/spk.req",
+		"/Users/anelson/sources/novas-c-3.1/asc2eph.f",
+		"/Users/anelson/sources/jpl_eph/jpleph.cpp",
+		"/Users/anelson/sources/cspice/src/cspice/furnsh_c.c",
+		"/Users/anelson/sources/cspice/src/cspice/bodeul.c",
+		"/Users/anelson/projects/ephemerides/de405/ascp1600.405",
+		"/Users/anelson/sources/cspice/doc/pck.req",
+		"/Users/anelson/sources/cspice/doc/naif_ids.req",
+		"/Users/anelson/projects/ephemerides/de405/testpo.405",
+		"/Users/anelson/projects/ephemerides/ascii_format.txt",
+		"/Users/anelson/sources/ephcom-1.0/testeph.c",
+		"/Users/anelson/sources/novas-c-3.1/testeph.f",
+		"/Users/anelson/Applications/eclipse/Eclipse.app/Contents/MacOS/eclipse.ini",
+		"/Users/anelson/projects/ephemerides/de405/lnx2050.405",
+		"/Users/anelson/sources/cspice/doc/kernel.req",
+		"/Users/anelson/sources/celestia/celestia-1.6.1/src/celengine/customorbit.cpp",
+		"/Users/anelson/sources/celestia/celestia-1.6.1/src/celengine/parseobject.cpp",
+		"/Users/anelson/sources/cspice/src/mkspk_c/mkspk.pgm",
+		"/Users/anelson/sources/cspice/src/frmdif_c/chwcml.c",
+		"/Users/anelson/sources/jderead13/JDEread/src/jderead/DEheader.java",
+		"/Users/anelson/sources/jderead13/JDEread/src/jderead/DE405.java",
+		"/Users/anelson/sources/jparsec/jparsec/ephem/planets/JPLEphemeris.java",
+		"/Users/anelson/sources/cspice/src/cspice/zzplatfm.c",
+		"/Users/anelson/sources/jpl_eph/asc2eph.f",
+		"/Users/anelson/projects/astrokoshka/project/plugins.sbt",
+		"/Users/anelson/projects/astrokoshka/build.sbt",
+		"/Users/anelson/projects/astrokoshka/project/build.sbt",
+		"/Users/anelson/sources/astrolog543a/calc.c",
+		"/Users/anelson/sources/swissephem/src/swephexp.h",
+		"/Users/anelson/sources/cspice/doc/frames.req"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/adam/Dropbox/sources/swissephem",
+			"/Users/adam/Dropbox/sources/novas-c-3.1",
+			"/Users/adam/Dropbox/sources/swissephem",
+			"/Users/adam/Dropbox/sources/novas-c-3.1",
+			"/Users/adam/Dropbox/sources/swissephem",
+			"/Users/adam/Dropbox/sources/swisseph",
+			"/Users/adam/Dropbox/sources/aa-56",
+			"/Users/adam/Dropbox/sources/swissephem",
+			"/Users/adam/Dropbox/sources/swissephem,/Users/adam/Dropbox/sources/novas-c-3.1",
+			"/Users/adam/Dropbox/sources/swissephem",
+			"/Users/adam/sources/novas-c-3.1",
+			"/Users/adam/sources/novas-c-3.1,<open folders>",
+			"/Users/adam/sources/novas-c-3.1",
+			"/Users/adam/sources/novas-c-3.1,<open folders>",
+			"/Users/adam/sources/novas-c-3.1",
+			"/Users/anelson/sources/ephcom-1.0,*.c,*.cpp,*.h",
+			"/Users/anelson/sources/cspice,*.c,*.cpp",
+			"/Users/anelson/sources/cspice,*.c,*.req,*.cpp",
+			"/Users/anelson/sources/celestia,*.c,*.req,*.cpp",
+			"/Users/anelson/sources/celestia,*.c,*.req",
+			"/Users/anelson/sources/cspice,*.c,*.req",
+			"/Users/anelson/sources/cspice,*.c;*.req",
+			"/Users/anelson/sources/cspice,*.c",
+			"/Users/anelson/sources/cspice;*.c",
+			"/Users/anelson/sources/cspice",
+			"/Users/anelson/sources/swissephem/src",
+			"/Users/anelson/sources/cspice/src",
+			"/Users/anelson/sources/cspice/doc/",
+			"/Users/anelson/sources/astrolog543a",
+			"<open folders>",
+			"<open folders>,*.c",
+			"<open folders>",
+			"/Users/anelson/projects/rspice/spec/test_data",
+			"/Users/anelson/projects/rspice/spec/rspice,*.rb",
+			"/Users/anelson/projects/rspice/lib/rspice;*.rb",
+			"/Users/anelson/projects/rspice/lib/rspice,*.rb",
+			"/Users/anelson/projects/rspice,*.rb",
+			"<open folders>",
+			"file://localhost/Users/anelson/sources/cspice/doc/html,<open folders>",
+			"file://localhost/Users/anelson/sources/cspice/doc/html",
+			"<open folders>",
+			"/usr/local/Cellar/swig/2.0.6/share/swig/2.0.6",
+			"<open folders>,*.swg",
+			"<open folders>,*.h",
+			"<open folders>,*.rb",
+			"<open folders>,*.h",
+			"<open folders>,*.c",
+			"<open folders>,*.h",
+			"<open folders>,*.c",
+			"<open folders>",
+			"",
+			"<open files>",
+			"/Users/anelson/sources/rtorrent-0.8.9,/Users/anelson/sources/libtorrent-0.12.9",
+			"/Users/anelson/sources/rtorrent-0.8.9",
+			"/Users/anelson/projects/scrap/curl"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"->mc",
+			"MC",
+			"swi_cartpol_sp",
+			"polar",
+			"ecliptic",
+			"int jplplan",
+			"32 swecalc",
+			"sweplan",
+			"jpleph",
+			"SPEED",
+			"swecalc",
+			"int swecalc",
+			"swe_calc",
+			"Stat2",
+			"AUNIT",
+			"GEOGCONST",
+			"orbital elements",
+			"int lunar_osc_elem",
+			"MEAN_APOG",
+			"apogee",
+			"swi_polcart",
+			"swi_mod2PI",
+			"mean_apog",
+			"mean_ele",
+			"void mean",
+			"_apog",
+			"printf",
+			"MOON_MEAN_INCL",
+			"swi_coortrf",
+			"MOON_MEAN_ECC",
+			"mean apogee",
+			"mean",
+			"mea",
+			"mean apogee",
+			"app_pos_rest",
+			"app_pos_etc_mean",
+			"mean lunar",
+			"mean node",
+			"swi_nutate",
+			"app_pos_rest",
+			"app_pos_etc_mean",
+			"app_pos_rest",
+			"app_pos_etc_mean",
+			"mean_node",
+			"app_pos_rest",
+			"swi_polcart_sp",
+			"equ2ecl",
+			"MOON_MEAN_DIST",
+			"moonlr",
+			"gmoon",
+			"moon",
+			"double z",
+			"Chapront",
+			"-8.466472828815e-05",
+			"mods3600",
+			"mods3600(",
+			"app_pos_etc_mean",
+			"swi_mean_node",
+			"swetest",
+			"swi_mean_node",
+			"swi_mean_lunar_elements",
+			"AUNIT",
+			"AUNIT\nAUNIT",
+			"MOON_MEAN_DIST",
+			"swi_mean_lunar_elements",
+			"mods3600",
+			"update",
+			"LP",
+			"LP +=",
+			"LP =",
+			"void mean_elements",
+			"mean_node",
+			"mean_elements",
+			"mean",
+			"mean_node",
+			"node",
+			"checksum",
+			"lunar_osc_elem",
+			"true node",
+			"true_node",
+			"mean_node",
+			"LP",
+			"void mean_elements",
+			"SE_MEAN_NODE",
+			"void mean_elements",
+			"swi_mean_node",
+			"app_pos_etc_mean",
+			"node",
+			"void mean_elements",
+			"lunar node",
+			"int ephemeris",
+			"void frame_tie",
+			"frame_tie",
+			"make_object",
+			"vernal",
+			"equinox",
+			"double Asc1",
+			"ascendant",
+			"app_pos_rest",
+			"grav_def",
+			"equ2ecl",
+			"moon",
+			"equ2",
+			"equ",
+			"moonll",
+			"int place",
+			"equ2ecl_vec",
+			"void e_tilt",
+			"mean_obliq",
+			"mean_",
+			"mean_ob",
+			"double mean_ob",
+			"void e_tilt",
+			"double ee_ct",
+			"nutation_angles",
+			"void e_tilt",
+			"equ2ecl_vec",
+			"void e_tilt",
+			"equ2ecl",
+			"nutation_angles",
+			"void e_tilt",
+			"swi_cartpol_sp",
+			"swi_coortrf2",
+			"int equ2ecl",
+			"int geo_posvel",
+			"int place",
+			"swetest",
+			"void nutation"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\\n",
+			"%.20",
+			"decimalHours",
+			"656867",
+			"RSPICE_MEAN_ECLIPTIC",
+			"656866RSPICE_MEAN_ECLIPTIC",
+			"656866",
+			"656865",
+			"RSPICE_TRUE_EQUATOR",
+			"TEST_UTC_DATETIME",
+			"RSpice::Kernel.furnish",
+			"RSpice::Kernel.unload_all",
+			"RSpice::Kernel.furnish",
+			"RSpice::Kernel.loaded_count",
+			"SpiceInt",
+			"SpiceIntCell",
+			"int",
+			"\\1().should",
+			"state.",
+			"Pcentric",
+			"0.64f",
+			"self.",
+			"with_node_at_xpath(show_info, \"",
+			" xwith_node_at_xpath(show_info, \"",
+			" x"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/Users/adam/Dropbox/projects/swissguard"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/adam/Dropbox/sources/swissephem"
+		}
+	],
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.sbt":
+	{
+		"height": 0.0
+	},
+	"output.sbt_error":
+	{
+		"height": 0.0
+	},
+	"output.tests":
+	{
+		"height": 100.0
+	},
+	"project": "",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"jplb",
+				"astrokoshka/astrolib/src/test/scala/com/astrokoshka/tests/ephemerides/jpl/JplBenchmark.scala"
+			],
+			[
+				"benchmar",
+				"astrokoshka/astrolib/src/test/scala/com/astrokoshka/tests/ephemerides/jpl/Benchmark.scala"
+			],
+			[
+				"spicezpr",
+				"cspice/include/SpiceZpr.h"
+			],
+			[
+				"data",
+				"config/database.yml"
+			],
+			[
+				"gemfile",
+				"Gemfile"
+			],
+			[
+				"about",
+				"app/views/static_pages/about.html.erb"
+			],
+			[
+				"help",
+				"app/views/static_pages/help.html.erb"
+			],
+			[
+				"home",
+				"app/views/static_pages/home.html.erb"
+			],
+			[
+				"lay",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"abou",
+				"app/views/static_pages/about.html.erb"
+			],
+			[
+				"spc",
+				"app/controllers/static_pages_controller.rb"
+			],
+			[
+				"routs",
+				"config/routes.rb"
+			],
+			[
+				"stati",
+				"spec/requests/static_pages_spec.rb"
+			],
+			[
+				"stat",
+				"app/controllers/static_pages_controller.rb"
+			],
+			[
+				"inde",
+				"public/index.html"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"mic",
+				"app/models/micropost.rb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"gemfil",
+				"Gemfile"
+			],
+			[
+				"mod",
+				".idea/modules.xml"
+			],
+			[
+				"torrent",
+				"libtorrent-0.12.9/src/torrent/torrent.h"
+			],
+			[
+				"config.h",
+				"rtorrent-0.8.9/config.h.in"
+			],
+			[
+				"index",
+				"app/views/home/index.html.erb"
+			],
+			[
+				"appli",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"trsg",
+				"app/models/tv_rage_show_genre.rb"
+			],
+			[
+				"trss",
+				"app/models/tv_rage_show_season.rb"
+			],
+			[
+				"ctrse",
+				"db/migrate/20110710190949_create_tv_rage_show_episodes.rb"
+			],
+			[
+				"ctrss",
+				"db/migrate/20110710190435_create_tv_rage_show_seasons.rb"
+			],
+			[
+				"tv",
+				"lib/import/tv_rage.rb"
+			],
+			[
+				"trn",
+				"app/models/tv_rage_network.rb"
+			],
+			[
+				"tvr",
+				"lib/import/tv_rage.rb"
+			],
+			[
+				"trshowgen",
+				"app/models/tv_rage_show_genre.rb"
+			],
+			[
+				"tvshow",
+				"app/models/tv_rage_show.rb"
+			],
+			[
+				"ctrshow",
+				"db/migrate/20110709141519_create_tv_rage_shows.rb"
+			],
+			[
+				"trst",
+				"app/models/tv_rage_status.rb"
+			],
+			[
+				"trc",
+				"app/models/tv_rage_classification.rb"
+			],
+			[
+				"trg",
+				"app/models/tv_rage_genre.rb"
+			],
+			[
+				"ctrsa",
+				"db/migrate/20110709142016_create_tv_rage_show_akas.rb"
+			],
+			[
+				"modtr",
+				"app/models/tv_rage_show.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 260.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
