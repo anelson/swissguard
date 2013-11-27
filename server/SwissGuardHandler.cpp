@@ -1,4 +1,4 @@
-#include "SwissGuard.h"
+#include "gen-cpp/SwissGuardService.h"
 
 #include <stdint.h>
 #include <cmath>
@@ -24,7 +24,7 @@ using std::endl;
 
 namespace swissguard {
 
-class SwissGuardHandler : virtual public SwissGuardIf
+class SwissGuardHandler : virtual public SwissGuardServiceIf
 {
   virtual void setJplFile(const std::string& jplFilePath) {
   	//Of course could use boost for this but running boost under OS X right now is a royal PITA
@@ -39,67 +39,67 @@ class SwissGuardHandler : virtual public SwissGuardIf
 	cout << "swisseph JPL file set to " << fileName << endl;
   }
 
-  virtual void computeBodyStates(BodyStates& _return, const Bodies& bodies, const PositionSystem position, const CoordinateSystem coords, const JulianDate& date) {
+  virtual void computeBodyStates(astrothrift::BodyStates& _return, const astrothrift::Bodies& bodies, const astrothrift::PositionSystem position, const astrothrift::CoordinateSystem coords, const astrothrift::JulianDate& date) {
   	int flags = 0;
 
   	//Build up the flags based on the parameters specified
   	switch (position) {
-  		case PositionSystem::TrueGeocentric:
+  		case astrothrift::PositionSystem::TrueGeocentric:
   			flags |= SEFLG_TRUEPOS;
   			break;
 
-		case PositionSystem::Heliocentric:
+		case astrothrift::PositionSystem::Heliocentric:
 			flags |= SEFLG_HELCTR;
 			break;
 
-		case PositionSystem::Barycentric:
+		case astrothrift::PositionSystem::Barycentric:
 			flags |= SEFLG_BARYCTR;
 			break;
 
-		case PositionSystem::Astrometric:
+		case astrothrift::PositionSystem::Astrometric:
 			flags |= SEFLG_NOABERR & SEFLG_NOGDEFL;
 			break;
 
-		case PositionSystem::AstrometricJ2000:
+		case astrothrift::PositionSystem::AstrometricJ2000:
 			flags |= SEFLG_NOABERR & SEFLG_NOGDEFL & SEFLG_J2000 & SEFLG_NONUT;
 			break;
 
-		case PositionSystem::MeanDate:
+		case astrothrift::PositionSystem::MeanDate:
 			flags |= SEFLG_NONUT;
 			break;
 
-		case PositionSystem::MeanJ2000:
+		case astrothrift::PositionSystem::MeanJ2000:
 			flags |= SEFLG_J2000 & SEFLG_NONUT;
 			break;
 
-		case PositionSystem::TrueDate:
+		case astrothrift::PositionSystem::TrueDate:
 			//This is the default; leave flags as they are
 			break;
 
-		case PositionSystem::TrueJ2000:
+		case astrothrift::PositionSystem::TrueJ2000:
 			flags |= SEFLG_J2000;
 			break;
   	}
 
   	switch (coords) {
-  		case EclipticSpherical:
+  		case astrothrift::EclipticSpherical:
   			//This is the default; leave flags alone
   			break;
 
-		case EclipticRectangular:
+		case astrothrift::EclipticRectangular:
 			flags |= SEFLG_XYZ;
 			break;
 
-		case EquatorialSpherical:
+		case astrothrift::EquatorialSpherical:
 			flags |= SEFLG_EQUATORIAL;
 			break;
 
-		case EquatorialRectangular:
+		case astrothrift::EquatorialRectangular:
 			flags |= SEFLG_EQUATORIAL | SEFLG_XYZ;
 			break;
   	}
 
-  	for (Bodies::const_iterator iter = bodies.begin(); iter != bodies.end(); ++iter) {
+  	for (astrothrift::Bodies::const_iterator iter = bodies.begin(); iter != bodies.end(); ++iter) {
   		char errorMessage[256];
   		double state[6] = {0};
   		auto bodyNumber = *iter;
@@ -114,7 +114,7 @@ class SwissGuardHandler : virtual public SwissGuardIf
   			throw e;
   		}
 
-  		State bodyState;
+  		astrothrift::State bodyState;
   		bodyState.pos.x = state[0];
   		bodyState.pos.y = state[1];
   		bodyState.pos.z = state[2];
@@ -133,17 +133,20 @@ int main (int argc, char **argv)
 {
   int port = 9090;
   shared_ptr<swissguard::SwissGuardHandler> handler(new swissguard::SwissGuardHandler());
-  shared_ptr<TProcessor> processor(new swissguard::SwissGuardProcessor(handler));
+  shared_ptr<TProcessor> processor(new swissguard::SwissGuardServiceProcessor(handler));
   shared_ptr<TServerTransport> serverTransport(new TServerSocket(port));
   shared_ptr<TTransportFactory> transportFactory(new TBufferedTransportFactory());
   shared_ptr<TProtocolFactory> protocolFactory(new TBinaryProtocolFactory());
-  shared_ptr<ThreadManager> threadManager = ThreadManager::newSimpleThreadManager (4);
+  shared_ptr<ThreadManager> threadManager = ThreadManager::newSimpleThreadManager (1);
   shared_ptr<PosixThreadFactory> threadFactory    = shared_ptr<PosixThreadFactory> (new PosixThreadFactory ());
   threadManager -> threadFactory (threadFactory);
   threadManager -> start ();
+
+ cout << "Listening on port " << port << " for Thrift connections" << endl;
  
  /* This time we'll try using a TThreadedServer, a better server than the TSimpleServer in the last tutorial */
  TThreadedServer server(processor, serverTransport, transportFactory, protocolFactory);
  server.serve();
+ 
  return 0;
 }
