@@ -12,19 +12,16 @@ LDFLAGS=-std=c++11 -lthrift -lswe -L$(SWEPATH) -v
 all: thrift swissguard
 
 thrift:
-		thrift -r -gen cpp:pure_enums -I ../../astrothrift ../swissguard.thrift 
+		thrift -r -gen cpp:pure_enums ../swissguard.thrift 
 
-swissguard: swissguard_constants.o swissguard_types.o SwissGuardService.o SwissGuardHandler.o astro_constants.o astro_types.o AstroThriftService.o 
-		$(CC) $(LDFLAGS) SwissGuardHandler.o SwissGuardService.o swissguard_constants.o swissguard_types.o AstroThriftService.o astro_constants.o astro_types.o -o swissguard_server
+swissguard: swissguard_constants.o swissguard_types.o SwissGuardService.o SwissGuardHandler.o
+		$(CC) $(LDFLAGS) SwissGuardHandler.o SwissGuardService.o swissguard_constants.o swissguard_types.o -o swissguard_server
 
-astro_constants.o: gen-cpp/astro_constants.cpp
-		$(CC) $(CFLAGS) gen-cpp/astro_constants.cpp
+swissguard_constants.o: gen-cpp/swissguard_constants.cpp
+		$(CC) $(CFLAGS) gen-cpp/swissguard_constants.cpp
 
-astro_types.o: gen-cpp/astro_types.cpp
-		$(CC) $(CFLAGS) gen-cpp/astro_types.cpp
-
-AstroThriftService.o: gen-cpp/AstroThriftService.cpp
-		$(CC) $(CFLAGS) gen-cpp/AstroThriftService.cpp
+swissguard_types.o: gen-cpp/swissguard_types.cpp
+		$(CC) $(CFLAGS) gen-cpp/swissguard_types.cpp
 
 swissguard_constants.o: gen-cpp/swissguard_constants.cpp
 		$(CC) $(CFLAGS) gen-cpp/swissguard_constants.cpp

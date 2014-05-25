@@ -1,3 +1,4 @@
 server/gen-cpp
 server/swissguard_server
 *.o
+*.sublime-workspace
